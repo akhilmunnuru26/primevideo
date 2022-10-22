@@ -1,0 +1,78 @@
+* {
+  font-family: 'Roboto';
+}
+.prime-video-website-image {
+  width: 100%;
+  height: 45vh;
+}
+.app-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+.movie-genre {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.prime-movies-section {
+  padding: 20px;
+}
+.slider-container {
+  padding: 25px;
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.close-icon {
+  font-size: 25px;
+  color: #ffffff;
+}
+.video-player-responsive-container {
+  margin-top: 10px;
+}
+@media screen and (max-width: 500px) {
+  .video-player-responsive-container {
+    margin-top: 10px;
+    width: 280px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.thumbnail-image {
+  width: 165px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    width: 290px;
+  }
+  .movie-genre {
+    color: #ffffff;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .thumbnail-image {
+    width: 125px;
+  }
+  .movie-genre {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .prime-video-website-image {
+    width: 100%;
+    height: 38vh;
+  }
+}
